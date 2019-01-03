@@ -6,21 +6,21 @@ pipeline {
   
     stage('Build') {
       steps {
-        echo Building
+        echo 'Building'
         sleep 5
       }
     }
   
     stage('Test') {
       steps {
-        echo Building
+        echo 'Building'
         sleep 5
       }
     }
   
     stage('Deploy') {
       steps {
-        echo Building
+        echo 'Deploying'
         sleep 5
       }
     }
