@@ -3,21 +3,21 @@ pipeline {
   stages {
   
     stage('Build') {
-      step {
+      steps {
         echo Building
         sleep 5
       }
     }
   
     stage('Test') {
-      step {
+      steps {
         echo Building
         sleep 5
       }
     }
   
     stage('Deploy') {
-      step {
+      steps {
         echo Building
         sleep 5
       }
